@@ -1,0 +1,27 @@
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+April 22, 2022 - 07:04:26
+Django version 4.0.4, using settings 'admin.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Error: That port is already in use.
+[22/Apr/2022 07:05:09] "GET / HTTP/1.1" 200 10697
+[22/Apr/2022 07:05:09] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[22/Apr/2022 07:05:09] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+[22/Apr/2022 07:05:09] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[22/Apr/2022 07:05:09] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+[22/Apr/2022 07:11:42] "GET / HTTP/1.1" 200 10697
+[22/Apr/2022 07:11:42] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[22/Apr/2022 07:11:42] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[22/Apr/2022 07:11:42] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[22/Apr/2022 07:11:42] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[22/Apr/2022 07:12:05] "GET / HTTP/1.1" 200 10697
+[22/Apr/2022 07:12:24] "GET / HTTP/1.1" 200 10697
+[22/Apr/2022 07:12:25] "GET / HTTP/1.1" 200 10697
